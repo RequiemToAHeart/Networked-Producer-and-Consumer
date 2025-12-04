@@ -1,0 +1,33 @@
+syntax = "proto3";
+package media;
+
+service MediaUpload {
+  // Client streams a single file (FileInfo then many Chunk). Server replies final UploadStatus.
+  rpc Upload(stream UploadRequest) returns (UploadStatus);
+}
+
+message UploadRequest {
+  oneof payload {
+    FileInfo info = 1;
+    Chunk chunk = 2;
+  }
+}
+
+message FileInfo {
+  string filename = 1;
+  string producer_id = 2;
+  int64 filesize = 3;
+  string mime = 4;
+}
+
+message Chunk {
+  bytes data = 1;
+  int64 offset = 2;
+}
+
+message UploadStatus {
+  bool accepted = 1;
+  string message = 2;       // "enqueued", "dropped: queue full", "duplicate"
+  string saved_path = 3;
+  bool duplicate = 4;
+}

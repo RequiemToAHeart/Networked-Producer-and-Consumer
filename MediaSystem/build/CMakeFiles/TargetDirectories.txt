@@ -1,0 +1,5 @@
+C:/Users/requi/Desktop/MediaSystem/build/CMakeFiles/proto_generated.dir
+C:/Users/requi/Desktop/MediaSystem/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/requi/Desktop/MediaSystem/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/requi/Desktop/MediaSystem/build/producer/CMakeFiles/producer.dir
+C:/Users/requi/Desktop/MediaSystem/build/consumer/CMakeFiles/consumer.dir

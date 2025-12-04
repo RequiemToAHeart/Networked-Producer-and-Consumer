@@ -3,7 +3,7 @@ Here's a producer-consumer exercise involving file writes and network sockets. T
 
 
 ## Dependencies, Software, & Libraries
-###vcpkg<br>
+### vcpkg<br>
 git clone https://github.com/microsoft/vcpkg "C:\vcpkg"<br>
 C:\vcpkg\bootstrap-vcpkg.bat<br>
 

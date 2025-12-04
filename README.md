@@ -2,7 +2,7 @@
 Here's a producer-consumer exercise involving file writes and network sockets. This will help you practice concurrent programming, file I/O, queueing, and network communication.  This is a simple simulation of a media upload service.
 
 
-##Dependencies, Software, & Libraries
+## Dependencies, Software, & Libraries
 ###vcpkg<br>
 git clone https://github.com/microsoft/vcpkg "C:\vcpkg"<br>
 C:\vcpkg\bootstrap-vcpkg.bat<br>
@@ -11,20 +11,20 @@ C:\vcpkg\bootstrap-vcpkg.bat<br>
 integrate:<br>
 C:\vcpkg\vcpkg integrate install
 
-###Dependencies for vcpkg<br>
+### Dependencies for vcpkg<br>
 C:\vcpkg\vcpkg install grpc:x64-windows<br>
 C:\vcpkg\vcpkg install openssl:x64-windows<br>
 C:\vcpkg\vcpkg install sqlite3:x64-windows<br>
 C:\vcpkg\vcpkg install nlohmann-json:x64-windows<br>
 C:\vcpkg\vcpkg install cpp-httplib:x64-windows<br>
 
-###ffmpeg<br>
+### ffmpeg<br>
 https://www.gyan.dev/ffmpeg/builds/<br>
 
-###CMake<br>
+### CMake<br>
 https://cmake.org/download/<br>
 
-##How to Run<br>
+## How to Run<br>
 (use cmd)<br>
 
 cd MediaSystem<br>

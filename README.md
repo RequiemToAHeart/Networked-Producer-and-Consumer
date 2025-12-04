@@ -3,6 +3,7 @@ Here's a producer-consumer exercise involving file writes and network sockets. T
 
 
 ##How to Run
+(use cmd)
 
 cd MediaSystem
 mkdir build
@@ -11,6 +12,7 @@ cmake .. -A x64 -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
 cmake --build . --config Release
 
 build/
+
  ├── producer/Release/producer.exe
  └── consumer/Release/consumer.exe
 

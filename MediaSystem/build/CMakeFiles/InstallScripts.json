@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/requi/Desktop/MediaSystem/build/cmake_install.cmake",
-		"C:/Users/requi/Desktop/MediaSystem/build/producer/cmake_install.cmake",
-		"C:/Users/requi/Desktop/MediaSystem/build/consumer/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -39,3 +39,17 @@ build/<br>
  └── consumer/Release/consumer.exe<br>
 <br>
  ^^^ find those
+
+ 
+## Running Producer:
+
+producer.exe <server:port> <producer_id> <input_folder><br>
+<br>
+
+
+producer.exe localhost:50051 producer1 C:\Users\requi\Desktop\MediaSystem\MediaInput<br><br>
+
+
+server: port to gRPC server of consumer<br>
+producer_id: producer1<br>
+and cd\MediaInput<br>

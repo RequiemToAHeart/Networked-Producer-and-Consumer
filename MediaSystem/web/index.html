@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Consumer GUI - Uploaded Videos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 12px; }
+    .grid { display: flex; flex-wrap: wrap; gap: 12px; }
+    .card { width: 320px; border: 1px solid #ddd; padding: 8px; }
+    .card video { width: 100%; display:block; cursor: pointer; background: #000; }
+    .modal { position:fixed; left:0; top:0; right:0; bottom:0; display:flex; justify-content:center; align-items:center; background:rgba(0,0,0,0.6); }
+    .modal video { width: 80vw; height: auto; }
+  </style>
+</head>
+<body>
+  <h1>Uploaded Videos</h1>
+  <div id="grid" class="grid"></div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
